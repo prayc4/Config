@@ -66,16 +66,16 @@ proxies:
   type: vmess
   server: 104.26.14.196
   port: 443
-  uuid: 54432812-0d20-11f0-842d-f76bc4c9f52a
+  uuid: f7272843-4ad5-596c-b8cd-00a0e75bf8e1
   alterId: 0
   cipher: auto
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: indo7.vpnjantit.com
+  servername: id-rajamitra001.beritanect.click
   network: ws
   ws-opts:
-    path: /vpnjantit
+    path: /xrayvmess
     headers:
-      Host: indo7.vpnjantit.com
+      Host: id-rajamitra001.beritanect.click
 #========================================
