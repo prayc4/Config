@@ -64,7 +64,7 @@ proxies:
 #========================================
 - name: VmessGit2
   type: vmess
-  server: 104.26.14.196
+  server: 104.17.155.243
   port: 443
   uuid: 3b5167fd-99a5-54a1-b2c0-0a64a5fc10f6
   alterId: 0
