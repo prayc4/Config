@@ -1,5 +1,5 @@
 proxies:
-- name: Vless3
+- name: VlessGit
   type: vless
   server: 104.26.14.196
   port: 443
@@ -14,18 +14,33 @@ proxies:
     headers:
       Host: nautica.foolvpn.me
 #=================================================
-- name: Vless4
-  type: vless
-  server: 104.26.14.19
+- name: VmessGit
+  type: vmess
+  server: 104.26.14.196
   port: 443
-  uuid: ba3ab362-2cbc-416d-af2f-9cc99fff385a
+  uuid: 1096d9f7-6ce4-56fb-bd76-d1697da481dd
+  alterId: 0
+  cipher: auto
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: but.xsmnet.buzz
+  servername: id-biznet001.beritanect.click
   network: ws
   ws-opts:
-    path: /xsm-Code/ID14
+    path: /xrayvmess
     headers:
-      Host: but.xsmnet.buzz
+      Host: id-biznet001.beritanect.click
 #=================================================
+- name: TrojanGit
+  type: trojan
+  server: 104.26.14.196
+  port: 443
+  password: 3b79ed03-8c27-4a0e-8dc7-e0cfafb338ba
+  udp: true
+  sni: id1.servercepat.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id1.servercepat.net
