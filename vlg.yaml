@@ -66,16 +66,16 @@ proxies:
   type: vmess
   server: 104.26.14.196
   port: 443
-  uuid: 64a719db-e17d-4b02-ae68-88b7313207fb
+  uuid: 54432812-0d20-11f0-842d-f76bc4c9f52a
   alterId: 0
   cipher: auto
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: vmess-id06.gproxy.pro
+  servername: indo7.vpnjantit.com
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vpnjantit
     headers:
-      Host: vmess-id06.gproxy.pro
+      Host: indo7.vpnjantit.com
 #========================================
