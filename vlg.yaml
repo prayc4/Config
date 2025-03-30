@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: nautica.foolvpn.me
 #=================================================
-- name: VmessGit1
+- name: VmessGit
   type: vmess
   server: 104.26.14.196
   port: 443
@@ -44,3 +44,21 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id1.servercepat.net
+#========================================
+- name: VmessGit1
+  type: vmess
+  server: 104.26.14.196
+  port: 443
+  uuid: a32502ea-4717-461f-8220-ca0b3229c1e5
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id2-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: id2-ray.ipservers.xyz
+#========================================
