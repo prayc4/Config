@@ -62,3 +62,20 @@ proxies:
     headers:
       Host: id2-ray.ipservers.xyz
 #========================================
+- name: VmessGit2
+  type: vmess
+  server: 104.26.14.196
+  port: 443
+  uuid: 64a719db-e17d-4b02-ae68-88b7313207fb
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: vmess-id06.gproxy.pro
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: vmess-id06.gproxy.pro
+#========================================
