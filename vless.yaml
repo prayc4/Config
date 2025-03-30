@@ -3,7 +3,7 @@ proxies:
   type: vless
   server: 104.26.14.196
   port: 443
-  uuid: 9a1c64c7-4997-4ed4-b743-01e8b7d8ab02
+  uuid: 4ebb7d28-3701-4a0e-b3ae-d960157b7a0a
   udp: true
   skip-cert-verify: true
   tls: true
