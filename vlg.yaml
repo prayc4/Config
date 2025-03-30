@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: nautica.foolvpn.me
 #=================================================
-- name: VmessGit
+- name: VmessGit1
   type: vmess
   server: 104.26.14.196
   port: 443
